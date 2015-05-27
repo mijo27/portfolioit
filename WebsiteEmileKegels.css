@@ -1,0 +1,64 @@
+body{
+	background: rgba(0, 0, 59, 1);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#000021), color-stop(100%,#00187c)) center center fixed no-repeat;
+}
+html, body{
+	height:100%;
+}
+.navigation{
+	width: 15%;
+	height: 100%;
+	box-shadow: 15px 0px 30px rgba(0, 0, 33, 1);
+	float: left;
+}
+.logo{
+	width: 80%;
+	padding: 20% 10% 10% 10%;
+}
+.navi{
+	width: 100%;
+	height: 3em;
+}
+.navi:hover:not(.logonav){
+	background-color: rgba(0, 0, 33, 1);
+	box-shadow: 15px 0px 30px rgba(0, 0, 33, 0.5);
+	border-left: solid #CC9900;
+}
+.logonav{
+	height: 9em;
+	margin-bottom: 6em;
+}
+.pnav{
+	color: #CC9900;
+	font-family: 'Prata', serif;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 10% 0% 10% 0%;
+}
+.titlediv{
+	border-bottom: solid #CC9900 1px;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 2em;
+}
+.ptitle{
+	color: #CC9900;
+	font-family: 'Prata', serif;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 2% 1% 2% 1%;
+}
+.home, .about, .work, .vision, .contact{
+	background-color: rgba(0, 0, 33, 1);
+	float: right;
+	margin: 5%;
+	width: 70%;
+	padding: 1em;
+}
+.home, .about, .work, .contact{
+	display: none;
+}
+img:not(.logo){
+	height: 15em;
+	margin: auto;
+}
