@@ -3,26 +3,26 @@ var main = function () {
   	$(".logonav").on("click", function(){
   		 $(".home").show();
          $(".about").hide();
-         $(".work").hide();
+         $(".oeuvre").hide();
          $(".vision").hide();
          $(".contact").hide();
 	});
 	$(".homenav").on("click", function(){
   		 $(".home").show();
          $(".about").hide();
-         $(".work").hide();
+         $(".oeuvre").hide();
          $(".vision").hide();
          $(".contact").hide();
 	});
 	$(".aboutnav").on("click", function(){
   		 $(".about").show();
   		 $(".home").hide();
-         $(".work").hide();
+         $(".oeuvre").hide();
          $(".vision").hide();
          $(".contact").hide();
 	});
-	$(".worknav").on("click", function(){
-  		 $(".work").show();
+	$(".oeuvrenav").on("click", function(){
+  		 $(".oeuvre").show();
   		 $(".home").hide();
          $(".about").hide();
          $(".vision").hide();
@@ -32,14 +32,14 @@ var main = function () {
   		 $(".vision").show();
   		 $(".home").hide();
          $(".about").hide();
-         $(".work").hide();
+         $(".oeuvre").hide();
          $(".contact").hide();
 	});
 	$(".contactnav").on("click", function(){
   		 $(".contact").show();
   		 $(".home").hide();
          $(".about").hide();
-         $(".work").hide();
+         $(".oeuvre").hide();
          $(".vision").hide();
 	});
 }; 
